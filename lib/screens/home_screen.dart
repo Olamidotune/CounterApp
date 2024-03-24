@@ -13,7 +13,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text("Cubit Counter App"),
+        title: const Text("BLoC Counter App"),
       ),
       body: Center(
         child: Column(

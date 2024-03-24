@@ -25,7 +25,7 @@ class ButtonScreen extends StatelessWidget {
           ),
           FloatingActionButton(
             onPressed: () {
-              // counterCubit.decrement();
+              counterBloc.add(CounterDecremented());
             },
             tooltip: 'Increment',
             child: const Icon(Icons.minimize),
